@@ -36,7 +36,7 @@ if __name__ == "__main__":
     input_dir = "data/ADULT AND CONTINUING EDUCATION"
     output_dir = "ocr_data_output"
     
-    # Process all PDFs with OCR
+    #Process all PDFs with OCR
     stats =ocr_pdfs_to_text(
         input_folder=input_dir,
         output_folder=output_dir,
@@ -44,7 +44,7 @@ if __name__ == "__main__":
         max_workers=1 # Process 4 PDFs in parallel
         )
     print(f"Processing complete! Success: {stats['successful']}/{stats['total']}")
-    
+
     publication = load_txt_to_strings("ocr_data_output")
-    db = insert_publications(collection, publication, title="400 level")
+    db = insert_publications(collection, publication)
     

@@ -84,24 +84,21 @@ def embed_documents(documents: list[str]) -> list[list[float]]:
     return embeddings
 
 # Insert the chunked and embedded files into chromaDB
-def insert_publications(collection: chromadb.Collection, publications: list[dict]):
+def insert_publications(collection: chromadb.Collection, publications: list[str], title ="doctest"):
     """
     Insert documents into a ChromaDB collection.
 
     Args:
         collection (chromadb.Collection): The collection to insert documents into
-        publications (list[dict]): List of dictionaries with 'content' and 'title' keys
+        publications (list[str]): The documents to insert
 
     Returns:
-        int: The next available ID after insertion
+        None
     """
     next_id = collection.count()
 
     for publication in publications:
-        content = publication["content"]
-        title = publication["title"]
-        
-        chunked_publication = chunk_research_paper(content, title)
+        chunked_publication = chunk_research_paper(publication,title)
 
         # Step 2: extract only the text content for embeddings
         chunk_texts = [chunk["content"] for chunk in chunked_publication]
@@ -113,10 +110,9 @@ def insert_publications(collection: chromadb.Collection, publications: list[dict
             embeddings=embeddings,
             ids=ids,
             documents=chunk_texts,
-            metadatas=chunked_publication
+            metadatas= chunked_publication
         )
         next_id += len(chunked_publication)
-    
     return next_id
 
 #This functions searches the chromadb database for the top three similar chunks
@@ -179,3 +175,19 @@ def answer_research_question(query, collection, embeddings, llm):
     response = llm.invoke(prompt)
     
     return response.content, relevant_chunks
+
+
+"""
+PGVECTOR
+from langchain_postgres import PGVector
+from langchain.embeddings import HuggingFaceEmbeddings
+
+embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+
+connection_string = "postgresql+psycopg2://user:password@localhost/research_db"
+vectorstore = PGVector(
+    connection_string=connection_string,
+    embedding_function=embeddings,
+    collection_name="research_docs",
+)
+"""

@@ -207,3 +207,431 @@
 2025-10-26 11:04:34,276 - INFO - 📁 Output folder: ocr_data_output
 2025-10-26 11:04:34,420 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
 2025-10-26 11:05:09,855 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 15:59:53,773 - INFO - Found 2 PDF files to process
+2025-10-28 15:59:53,773 - INFO - Processing 2 PDFs sequentially
+2025-10-28 15:59:53,773 - INFO - Output file already exists, skipping: ocr_data_output/EYIUCHE BLESSING AMARACHUKWU ESUT-2014-144727.txt
+2025-10-28 15:59:53,774 - INFO - ✅ Success: data/ADULT AND CONTINUING EDUCATION/SANCTUS/23-11-2021 EXCEL DONE/EYIUCHE BLESSING AMARACHUKWU ESUT-2014-144727.pdf
+2025-10-28 15:59:53,774 - INFO - Output file already exists, skipping: ocr_data_output/NWAFOR JULIET IFEOMA ESUT-2014-155870.txt
+2025-10-28 15:59:53,774 - INFO - ✅ Success: data/ADULT AND CONTINUING EDUCATION/SANCTUS/23-11-2021 EXCEL DONE/NWAFOR JULIET IFEOMA ESUT-2014-155870.pdf
+2025-10-28 15:59:53,774 - INFO - 
+📊 PROCESSING SUMMARY:
+2025-10-28 15:59:53,774 - INFO - 📂 Total PDFs processed: 2
+2025-10-28 15:59:53,775 - INFO - ✅ Successful: 2
+2025-10-28 15:59:53,775 - INFO - ❌ Failed: 0
+2025-10-28 15:59:53,775 - INFO - 📁 Output folder: ocr_data_output
+2025-10-28 16:06:25,135 - INFO - Found 2 PDF files to process
+2025-10-28 16:06:25,135 - INFO - Processing 2 PDFs sequentially
+2025-10-28 16:06:25,136 - INFO - Processing PDF: data/ADULT AND CONTINUING EDUCATION/SANCTUS/23-11-2021 EXCEL DONE/EYIUCHE BLESSING AMARACHUKWU ESUT-2014-144727.pdf
+2025-10-28 16:07:16,637 - INFO - Converted 94 pages to images
+2025-10-28 16:07:16,638 - INFO - Processing page 1/94
+2025-10-28 16:07:17,783 - INFO - Processing page 2/94
+2025-10-28 16:07:18,662 - INFO - Processing page 3/94
+2025-10-28 16:07:19,385 - INFO - Processing page 4/94
+2025-10-28 16:07:19,915 - INFO - Processing page 5/94
+2025-10-28 16:07:21,049 - INFO - Processing page 6/94
+2025-10-28 16:07:22,062 - INFO - Processing page 7/94
+2025-10-28 16:07:23,069 - INFO - Processing page 8/94
+2025-10-28 16:07:23,789 - INFO - Processing page 9/94
+2025-10-28 16:07:25,280 - INFO - Processing page 10/94
+2025-10-28 16:07:26,578 - INFO - Processing page 11/94
+2025-10-28 16:07:27,781 - INFO - Processing page 12/94
+2025-10-28 16:07:29,056 - INFO - Processing page 13/94
+2025-10-28 16:07:30,319 - INFO - Processing page 14/94
+2025-10-28 16:07:31,597 - INFO - Processing page 15/94
+2025-10-28 16:07:32,699 - INFO - Processing page 16/94
+2025-10-28 16:07:33,831 - INFO - Processing page 17/94
+2025-10-28 16:07:34,990 - INFO - Processing page 18/94
+2025-10-28 16:07:36,221 - INFO - Processing page 19/94
+2025-10-28 16:07:37,778 - INFO - Processing page 20/94
+2025-10-28 16:07:39,022 - INFO - Processing page 21/94
+2025-10-28 16:07:40,162 - INFO - Processing page 22/94
+2025-10-28 16:07:40,854 - INFO - Processing page 23/94
+2025-10-28 16:07:42,014 - INFO - Processing page 24/94
+2025-10-28 16:07:43,291 - INFO - Processing page 25/94
+2025-10-28 16:07:44,513 - INFO - Processing page 26/94
+2025-10-28 16:07:45,801 - INFO - Processing page 27/94
+2025-10-28 16:07:47,098 - INFO - Processing page 28/94
+2025-10-28 16:07:48,355 - INFO - Processing page 29/94
+2025-10-28 16:07:49,619 - INFO - Processing page 30/94
+2025-10-28 16:07:50,723 - INFO - Processing page 31/94
+2025-10-28 16:07:51,865 - INFO - Processing page 32/94
+2025-10-28 16:07:53,023 - INFO - Processing page 33/94
+2025-10-28 16:07:54,378 - INFO - Processing page 34/94
+2025-10-28 16:07:55,631 - INFO - Processing page 35/94
+2025-10-28 16:07:56,795 - INFO - Processing page 36/94
+2025-10-28 16:07:57,940 - INFO - Processing page 37/94
+2025-10-28 16:07:59,146 - INFO - Processing page 38/94
+2025-10-28 16:08:00,367 - INFO - Processing page 39/94
+2025-10-28 16:08:01,638 - INFO - Processing page 40/94
+2025-10-28 16:08:02,895 - INFO - Processing page 41/94
+2025-10-28 16:08:04,155 - INFO - Processing page 42/94
+2025-10-28 16:08:05,313 - INFO - Processing page 43/94
+2025-10-28 16:08:06,519 - INFO - Processing page 44/94
+2025-10-28 16:08:07,772 - INFO - Processing page 45/94
+2025-10-28 16:08:08,940 - INFO - Processing page 46/94
+2025-10-28 16:08:10,078 - INFO - Processing page 47/94
+2025-10-28 16:08:11,322 - INFO - Processing page 48/94
+2025-10-28 16:08:12,564 - INFO - Processing page 49/94
+2025-10-28 16:08:13,827 - INFO - Processing page 50/94
+2025-10-28 16:08:15,036 - INFO - Processing page 51/94
+2025-10-28 16:08:16,245 - INFO - Processing page 52/94
+2025-10-28 16:08:17,433 - INFO - Processing page 53/94
+2025-10-28 16:08:18,680 - INFO - Processing page 54/94
+2025-10-28 16:08:19,883 - INFO - Processing page 55/94
+2025-10-28 16:08:21,110 - INFO - Processing page 56/94
+2025-10-28 16:08:22,322 - INFO - Processing page 57/94
+2025-10-28 16:08:23,563 - INFO - Processing page 58/94
+2025-10-28 16:08:24,712 - INFO - Processing page 59/94
+2025-10-28 16:08:25,886 - INFO - Processing page 60/94
+2025-10-28 16:08:26,708 - INFO - Processing page 61/94
+2025-10-28 16:08:27,816 - INFO - Processing page 62/94
+2025-10-28 16:08:28,990 - INFO - Processing page 63/94
+2025-10-28 16:08:30,011 - INFO - Processing page 64/94
+2025-10-28 16:08:30,939 - INFO - Processing page 65/94
+2025-10-28 16:08:32,168 - INFO - Processing page 66/94
+2025-10-28 16:08:33,264 - INFO - Processing page 67/94
+2025-10-28 16:08:34,102 - INFO - Processing page 68/94
+2025-10-28 16:08:34,888 - INFO - Processing page 69/94
+2025-10-28 16:08:35,826 - INFO - Processing page 70/94
+2025-10-28 16:08:37,111 - INFO - Processing page 71/94
+2025-10-28 16:08:37,898 - INFO - Processing page 72/94
+2025-10-28 16:08:38,808 - INFO - Processing page 73/94
+2025-10-28 16:08:39,759 - INFO - Processing page 74/94
+2025-10-28 16:08:40,652 - INFO - Processing page 75/94
+2025-10-28 16:08:41,727 - INFO - Processing page 76/94
+2025-10-28 16:08:42,592 - INFO - Processing page 77/94
+2025-10-28 16:08:43,375 - INFO - Processing page 78/94
+2025-10-28 16:08:44,390 - INFO - Processing page 79/94
+2025-10-28 16:08:45,293 - INFO - Processing page 80/94
+2025-10-28 16:08:46,270 - INFO - Processing page 81/94
+2025-10-28 16:08:47,486 - INFO - Processing page 82/94
+2025-10-28 16:08:48,724 - INFO - Processing page 83/94
+2025-10-28 16:08:49,822 - INFO - Processing page 84/94
+2025-10-28 16:08:50,964 - INFO - Processing page 85/94
+2025-10-28 16:08:52,203 - INFO - Processing page 86/94
+2025-10-28 16:08:53,462 - INFO - Processing page 87/94
+2025-10-28 16:08:54,499 - INFO - Processing page 88/94
+2025-10-28 16:08:56,004 - INFO - Processing page 89/94
+2025-10-28 16:08:57,601 - INFO - Processing page 90/94
+2025-10-28 16:08:58,840 - INFO - Processing page 91/94
+2025-10-28 16:09:00,029 - INFO - Processing page 92/94
+2025-10-28 16:09:00,839 - INFO - Processing page 93/94
+2025-10-28 16:09:01,685 - INFO - Processing page 94/94
+2025-10-28 16:09:02,393 - INFO - Successfully processed and saved: ocr_data_output/EYIUCHE BLESSING AMARACHUKWU ESUT-2014-144727.txt
+2025-10-28 16:09:02,751 - INFO - ✅ Success: data/ADULT AND CONTINUING EDUCATION/SANCTUS/23-11-2021 EXCEL DONE/EYIUCHE BLESSING AMARACHUKWU ESUT-2014-144727.pdf
+2025-10-28 16:09:02,752 - INFO - Processing PDF: data/ADULT AND CONTINUING EDUCATION/SANCTUS/23-11-2021 EXCEL DONE/NWAFOR JULIET IFEOMA ESUT-2014-155870.pdf
+2025-10-28 16:10:06,443 - INFO - Converted 97 pages to images
+2025-10-28 16:10:06,446 - INFO - Processing page 1/97
+2025-10-28 16:10:07,300 - INFO - Processing page 2/97
+2025-10-28 16:10:08,169 - INFO - Processing page 3/97
+2025-10-28 16:10:08,877 - INFO - Processing page 4/97
+2025-10-28 16:10:09,598 - INFO - Processing page 5/97
+2025-10-28 16:10:10,469 - INFO - Processing page 6/97
+2025-10-28 16:10:11,572 - INFO - Processing page 7/97
+2025-10-28 16:10:12,659 - INFO - Processing page 8/97
+2025-10-28 16:10:13,439 - INFO - Processing page 9/97
+2025-10-28 16:10:14,796 - INFO - Processing page 10/97
+2025-10-28 16:10:15,860 - INFO - Processing page 11/97
+2025-10-28 16:10:17,058 - INFO - Processing page 12/97
+2025-10-28 16:10:18,283 - INFO - Processing page 13/97
+2025-10-28 16:10:19,515 - INFO - Processing page 14/97
+2025-10-28 16:10:20,766 - INFO - Processing page 15/97
+2025-10-28 16:10:22,010 - INFO - Processing page 16/97
+2025-10-28 16:10:23,186 - INFO - Processing page 17/97
+2025-10-28 16:10:24,321 - INFO - Processing page 18/97
+2025-10-28 16:10:25,107 - INFO - Processing page 19/97
+2025-10-28 16:10:26,284 - INFO - Processing page 20/97
+2025-10-28 16:10:27,535 - INFO - Processing page 21/97
+2025-10-28 16:10:28,783 - INFO - Processing page 22/97
+2025-10-28 16:10:30,016 - INFO - Processing page 23/97
+2025-10-28 16:10:31,294 - INFO - Processing page 24/97
+2025-10-28 16:10:32,549 - INFO - Processing page 25/97
+2025-10-28 16:10:33,829 - INFO - Processing page 26/97
+2025-10-28 16:10:35,150 - INFO - Processing page 27/97
+2025-10-28 16:10:36,531 - INFO - Processing page 28/97
+2025-10-28 16:10:37,820 - INFO - Processing page 29/97
+2025-10-28 16:10:39,080 - INFO - Processing page 30/97
+2025-10-28 16:10:40,281 - INFO - Processing page 31/97
+2025-10-28 16:10:41,408 - INFO - Processing page 32/97
+2025-10-28 16:10:42,501 - INFO - Processing page 33/97
+2025-10-28 16:10:43,703 - INFO - Processing page 34/97
+2025-10-28 16:10:44,874 - INFO - Processing page 35/97
+2025-10-28 16:10:46,088 - INFO - Processing page 36/97
+2025-10-28 16:10:47,339 - INFO - Processing page 37/97
+2025-10-28 16:10:48,600 - INFO - Processing page 38/97
+2025-10-28 16:10:49,879 - INFO - Processing page 39/97
+2025-10-28 16:10:51,182 - INFO - Processing page 40/97
+2025-10-28 16:10:52,475 - INFO - Processing page 41/97
+2025-10-28 16:10:53,804 - INFO - Processing page 42/97
+2025-10-28 16:10:55,061 - INFO - Processing page 43/97
+2025-10-28 16:10:56,264 - INFO - Processing page 44/97
+2025-10-28 16:10:57,415 - INFO - Processing page 45/97
+2025-10-28 16:10:58,790 - INFO - Processing page 46/97
+2025-10-28 16:11:00,137 - INFO - Processing page 47/97
+2025-10-28 16:11:01,462 - INFO - Processing page 48/97
+2025-10-28 16:11:02,682 - INFO - Processing page 49/97
+2025-10-28 16:11:03,979 - INFO - Processing page 50/97
+2025-10-28 16:11:05,317 - INFO - Processing page 51/97
+2025-10-28 16:11:06,595 - INFO - Processing page 52/97
+2025-10-28 16:11:07,935 - INFO - Processing page 53/97
+2025-10-28 16:11:09,049 - INFO - Processing page 54/97
+2025-10-28 16:11:10,390 - INFO - Processing page 55/97
+2025-10-28 16:11:11,617 - INFO - Processing page 56/97
+2025-10-28 16:11:12,924 - INFO - Processing page 57/97
+2025-10-28 16:11:14,236 - INFO - Processing page 58/97
+2025-10-28 16:11:15,533 - INFO - Processing page 59/97
+2025-10-28 16:11:16,747 - INFO - Processing page 60/97
+2025-10-28 16:11:18,071 - INFO - Processing page 61/97
+2025-10-28 16:11:19,299 - INFO - Processing page 62/97
+2025-10-28 16:11:20,549 - INFO - Processing page 63/97
+2025-10-28 16:11:21,775 - INFO - Processing page 64/97
+2025-10-28 16:11:22,927 - INFO - Processing page 65/97
+2025-10-28 16:11:23,576 - INFO - Processing page 66/97
+2025-10-28 16:11:24,594 - INFO - Processing page 67/97
+2025-10-28 16:11:25,791 - INFO - Processing page 68/97
+2025-10-28 16:11:26,878 - INFO - Processing page 69/97
+2025-10-28 16:11:28,061 - INFO - Processing page 70/97
+2025-10-28 16:11:29,111 - INFO - Processing page 71/97
+2025-10-28 16:11:29,645 - INFO - Processing page 72/97
+2025-10-28 16:11:30,895 - INFO - Processing page 73/97
+2025-10-28 16:11:32,181 - INFO - Processing page 74/97
+2025-10-28 16:11:33,344 - INFO - Processing page 75/97
+2025-10-28 16:11:34,601 - INFO - Processing page 76/97
+2025-10-28 16:11:35,286 - INFO - Processing page 77/97
+2025-10-28 16:11:36,703 - INFO - Processing page 78/97
+2025-10-28 16:11:38,084 - INFO - Processing page 79/97
+2025-10-28 16:11:39,293 - INFO - Processing page 80/97
+2025-10-28 16:11:40,481 - INFO - Processing page 81/97
+2025-10-28 16:11:41,622 - INFO - Processing page 82/97
+2025-10-28 16:11:42,799 - INFO - Processing page 83/97
+2025-10-28 16:11:43,888 - INFO - Processing page 84/97
+2025-10-28 16:11:44,957 - INFO - Processing page 85/97
+2025-10-28 16:11:46,088 - INFO - Processing page 86/97
+2025-10-28 16:11:47,182 - INFO - Processing page 87/97
+2025-10-28 16:11:48,634 - INFO - Processing page 88/97
+2025-10-28 16:11:50,042 - INFO - Processing page 89/97
+2025-10-28 16:11:51,595 - INFO - Processing page 90/97
+2025-10-28 16:11:53,168 - INFO - Processing page 91/97
+2025-10-28 16:11:53,972 - INFO - Processing page 92/97
+2025-10-28 16:11:54,960 - INFO - Processing page 93/97
+2025-10-28 16:11:55,718 - INFO - Processing page 94/97
+2025-10-28 16:11:56,546 - INFO - Processing page 95/97
+2025-10-28 16:11:57,426 - INFO - Processing page 96/97
+2025-10-28 16:11:58,172 - INFO - Processing page 97/97
+2025-10-28 16:11:58,856 - INFO - Successfully processed and saved: ocr_data_output/NWAFOR JULIET IFEOMA ESUT-2014-155870.txt
+2025-10-28 16:11:59,272 - INFO - ✅ Success: data/ADULT AND CONTINUING EDUCATION/SANCTUS/23-11-2021 EXCEL DONE/NWAFOR JULIET IFEOMA ESUT-2014-155870.pdf
+2025-10-28 16:11:59,272 - INFO - 
+📊 PROCESSING SUMMARY:
+2025-10-28 16:11:59,273 - INFO - 📂 Total PDFs processed: 2
+2025-10-28 16:11:59,273 - INFO - ✅ Successful: 2
+2025-10-28 16:11:59,274 - INFO - ❌ Failed: 0
+2025-10-28 16:11:59,274 - INFO - 📁 Output folder: ocr_data_output
+2025-10-28 16:44:28,842 - INFO - Found 2 PDF files to process
+2025-10-28 16:44:28,842 - INFO - Processing 2 PDFs sequentially
+2025-10-28 16:44:28,842 - INFO - Processing PDF: data/ADULT AND CONTINUING EDUCATION/SANCTUS/23-11-2021 EXCEL DONE/EYIUCHE BLESSING AMARACHUKWU ESUT-2014-144727.pdf
+2025-10-28 16:45:27,728 - INFO - Converted 94 pages to images
+2025-10-28 16:45:27,737 - INFO - Processing page 1/94
+2025-10-28 16:45:28,702 - INFO - Processing page 2/94
+2025-10-28 16:45:29,654 - INFO - Processing page 3/94
+2025-10-28 16:45:30,458 - INFO - Processing page 4/94
+2025-10-28 16:45:31,028 - INFO - Processing page 5/94
+2025-10-28 16:45:32,526 - INFO - Processing page 6/94
+2025-10-28 16:45:33,716 - INFO - Processing page 7/94
+2025-10-28 16:45:35,094 - INFO - Processing page 8/94
+2025-10-28 16:45:35,928 - INFO - Processing page 9/94
+2025-10-28 16:45:38,516 - INFO - Processing page 10/94
+2025-10-28 16:45:40,359 - INFO - Processing page 11/94
+2025-10-28 16:45:41,976 - INFO - Processing page 12/94
+2025-10-28 16:45:43,732 - INFO - Processing page 13/94
+2025-10-28 16:45:45,458 - INFO - Processing page 14/94
+2025-10-28 16:45:47,032 - INFO - Processing page 15/94
+2025-10-28 16:45:48,491 - INFO - Processing page 16/94
+2025-10-28 16:45:50,019 - INFO - Processing page 17/94
+2025-10-28 16:45:51,377 - INFO - Processing page 18/94
+2025-10-28 16:45:52,734 - INFO - Processing page 19/94
+2025-10-28 16:45:54,468 - INFO - Processing page 20/94
+2025-10-28 16:45:56,118 - INFO - Processing page 21/94
+2025-10-28 16:45:57,596 - INFO - Processing page 22/94
+2025-10-28 16:45:58,405 - INFO - Processing page 23/94
+2025-10-28 16:45:59,772 - INFO - Processing page 24/94
+2025-10-28 16:46:01,267 - INFO - Processing page 25/94
+2025-10-28 16:46:03,050 - INFO - Processing page 26/94
+2025-10-28 16:46:05,712 - INFO - Processing page 27/94
+2025-10-28 16:46:07,298 - INFO - Processing page 28/94
+2025-10-28 16:46:08,889 - INFO - Processing page 29/94
+2025-10-28 16:46:10,431 - INFO - Processing page 30/94
+2025-10-28 16:46:11,657 - INFO - Processing page 31/94
+2025-10-28 16:46:12,981 - INFO - Processing page 32/94
+2025-10-28 16:46:14,512 - INFO - Processing page 33/94
+2025-10-28 16:46:15,994 - INFO - Processing page 34/94
+2025-10-28 16:46:17,476 - INFO - Processing page 35/94
+2025-10-28 16:46:18,783 - INFO - Processing page 36/94
+2025-10-28 16:46:20,359 - INFO - Processing page 37/94
+2025-10-28 16:46:21,983 - INFO - Processing page 38/94
+2025-10-28 16:46:23,446 - INFO - Processing page 39/94
+2025-10-28 16:46:24,909 - INFO - Processing page 40/94
+2025-10-28 16:46:26,413 - INFO - Processing page 41/94
+2025-10-28 16:46:27,981 - INFO - Processing page 42/94
+2025-10-28 16:46:29,504 - INFO - Processing page 43/94
+2025-10-28 16:46:30,989 - INFO - Processing page 44/94
+2025-10-28 16:46:32,516 - INFO - Processing page 45/94
+2025-10-28 16:46:33,945 - INFO - Processing page 46/94
+2025-10-28 16:46:35,295 - INFO - Processing page 47/94
+2025-10-28 16:46:37,078 - INFO - Processing page 48/94
+2025-10-28 16:46:38,738 - INFO - Processing page 49/94
+2025-10-28 16:46:40,567 - INFO - Processing page 50/94
+2025-10-28 16:46:42,167 - INFO - Processing page 51/94
+2025-10-28 16:46:43,710 - INFO - Processing page 52/94
+2025-10-28 16:46:45,143 - INFO - Processing page 53/94
+2025-10-28 16:46:46,665 - INFO - Processing page 54/94
+2025-10-28 16:46:48,340 - INFO - Processing page 55/94
+2025-10-28 16:46:50,143 - INFO - Processing page 56/94
+2025-10-28 16:46:51,649 - INFO - Processing page 57/94
+2025-10-28 16:46:53,161 - INFO - Processing page 58/94
+2025-10-28 16:46:54,515 - INFO - Processing page 59/94
+2025-10-28 16:46:56,053 - INFO - Processing page 60/94
+2025-10-28 16:46:57,047 - INFO - Processing page 61/94
+2025-10-28 16:46:58,416 - INFO - Processing page 62/94
+2025-10-28 16:46:59,840 - INFO - Processing page 63/94
+2025-10-28 16:47:01,013 - INFO - Processing page 64/94
+2025-10-28 16:47:02,131 - INFO - Processing page 65/94
+2025-10-28 16:47:03,572 - INFO - Processing page 66/94
+2025-10-28 16:47:04,926 - INFO - Processing page 67/94
+2025-10-28 16:47:05,921 - INFO - Processing page 68/94
+2025-10-28 16:47:06,854 - INFO - Processing page 69/94
+2025-10-28 16:47:08,009 - INFO - Processing page 70/94
+2025-10-28 16:47:09,325 - INFO - Processing page 71/94
+2025-10-28 16:47:10,329 - INFO - Processing page 72/94
+2025-10-28 16:47:11,450 - INFO - Processing page 73/94
+2025-10-28 16:47:12,536 - INFO - Processing page 74/94
+2025-10-28 16:47:13,802 - INFO - Processing page 75/94
+2025-10-28 16:47:15,241 - INFO - Processing page 76/94
+2025-10-28 16:47:16,262 - INFO - Processing page 77/94
+2025-10-28 16:47:17,177 - INFO - Processing page 78/94
+2025-10-28 16:47:18,308 - INFO - Processing page 79/94
+2025-10-28 16:47:19,385 - INFO - Processing page 80/94
+2025-10-28 16:47:20,490 - INFO - Processing page 81/94
+2025-10-28 16:47:21,894 - INFO - Processing page 82/94
+2025-10-28 16:47:23,226 - INFO - Processing page 83/94
+2025-10-28 16:47:24,495 - INFO - Processing page 84/94
+2025-10-28 16:47:25,817 - INFO - Processing page 85/94
+2025-10-28 16:47:27,230 - INFO - Processing page 86/94
+2025-10-28 16:47:28,454 - INFO - Processing page 87/94
+2025-10-28 16:47:29,604 - INFO - Processing page 88/94
+2025-10-28 16:47:31,328 - INFO - Processing page 89/94
+2025-10-28 16:47:33,235 - INFO - Processing page 90/94
+2025-10-28 16:47:34,816 - INFO - Processing page 91/94
+2025-10-28 16:47:36,448 - INFO - Processing page 92/94
+2025-10-28 16:47:37,438 - INFO - Processing page 93/94
+2025-10-28 16:47:38,424 - INFO - Processing page 94/94
+2025-10-28 16:47:39,295 - INFO - Successfully processed and saved: ocr_data_output/EYIUCHE BLESSING AMARACHUKWU ESUT-2014-144727.txt
+2025-10-28 16:47:39,655 - INFO - ✅ Success: data/ADULT AND CONTINUING EDUCATION/SANCTUS/23-11-2021 EXCEL DONE/EYIUCHE BLESSING AMARACHUKWU ESUT-2014-144727.pdf
+2025-10-28 16:47:39,655 - INFO - Processing PDF: data/ADULT AND CONTINUING EDUCATION/SANCTUS/23-11-2021 EXCEL DONE/NWAFOR JULIET IFEOMA ESUT-2014-155870.pdf
+2025-10-28 16:49:00,633 - INFO - Converted 97 pages to images
+2025-10-28 16:49:00,634 - INFO - Processing page 1/97
+2025-10-28 16:49:01,895 - INFO - Processing page 2/97
+2025-10-28 16:49:03,283 - INFO - Processing page 3/97
+2025-10-28 16:49:04,347 - INFO - Processing page 4/97
+2025-10-28 16:49:05,416 - INFO - Processing page 5/97
+2025-10-28 16:49:06,741 - INFO - Processing page 6/97
+2025-10-28 16:49:08,426 - INFO - Processing page 7/97
+2025-10-28 16:49:10,093 - INFO - Processing page 8/97
+2025-10-28 16:49:11,227 - INFO - Processing page 9/97
+2025-10-28 16:49:13,176 - INFO - Processing page 10/97
+2025-10-28 16:49:14,757 - INFO - Processing page 11/97
+2025-10-28 16:49:16,572 - INFO - Processing page 12/97
+2025-10-28 16:49:18,326 - INFO - Processing page 13/97
+2025-10-28 16:49:20,101 - INFO - Processing page 14/97
+2025-10-28 16:49:21,894 - INFO - Processing page 15/97
+2025-10-28 16:49:23,707 - INFO - Processing page 16/97
+2025-10-28 16:49:25,420 - INFO - Processing page 17/97
+2025-10-28 16:49:27,057 - INFO - Processing page 18/97
+2025-10-28 16:49:28,211 - INFO - Processing page 19/97
+2025-10-28 16:49:29,963 - INFO - Processing page 20/97
+2025-10-28 16:49:31,771 - INFO - Processing page 21/97
+2025-10-28 16:49:33,569 - INFO - Processing page 22/97
+2025-10-28 16:49:35,362 - INFO - Processing page 23/97
+2025-10-28 16:49:37,419 - INFO - Processing page 24/97
+2025-10-28 16:49:39,204 - INFO - Processing page 25/97
+2025-10-28 16:49:41,082 - INFO - Processing page 26/97
+2025-10-28 16:49:43,018 - INFO - Processing page 27/97
+2025-10-28 16:49:44,784 - INFO - Processing page 28/97
+2025-10-28 16:49:46,601 - INFO - Processing page 29/97
+2025-10-28 16:49:48,434 - INFO - Processing page 30/97
+2025-10-28 16:49:50,166 - INFO - Processing page 31/97
+2025-10-28 16:49:51,820 - INFO - Processing page 32/97
+2025-10-28 16:49:53,420 - INFO - Processing page 33/97
+2025-10-28 16:49:55,165 - INFO - Processing page 34/97
+2025-10-28 16:49:56,846 - INFO - Processing page 35/97
+2025-10-28 16:49:58,605 - INFO - Processing page 36/97
+2025-10-28 16:50:00,420 - INFO - Processing page 37/97
+2025-10-28 16:50:02,238 - INFO - Processing page 38/97
+2025-10-28 16:50:04,181 - INFO - Processing page 39/97
+2025-10-28 16:50:06,079 - INFO - Processing page 40/97
+2025-10-28 16:50:08,014 - INFO - Processing page 41/97
+2025-10-28 16:50:09,973 - INFO - Processing page 42/97
+2025-10-28 16:50:11,836 - INFO - Processing page 43/97
+2025-10-28 16:50:13,598 - INFO - Processing page 44/97
+2025-10-28 16:50:15,274 - INFO - Processing page 45/97
+2025-10-28 16:50:17,300 - INFO - Processing page 46/97
+2025-10-28 16:50:19,507 - INFO - Processing page 47/97
+2025-10-28 16:50:21,386 - INFO - Processing page 48/97
+2025-10-28 16:50:23,185 - INFO - Processing page 49/97
+2025-10-28 16:50:25,094 - INFO - Processing page 50/97
+2025-10-28 16:50:27,047 - INFO - Processing page 51/97
+2025-10-28 16:50:28,878 - INFO - Processing page 52/97
+2025-10-28 16:50:30,812 - INFO - Processing page 53/97
+2025-10-28 16:50:32,419 - INFO - Processing page 54/97
+2025-10-28 16:50:34,361 - INFO - Processing page 55/97
+2025-10-28 16:50:36,250 - INFO - Processing page 56/97
+2025-10-28 16:50:38,223 - INFO - Processing page 57/97
+2025-10-28 16:50:40,155 - INFO - Processing page 58/97
+2025-10-28 16:50:42,040 - INFO - Processing page 59/97
+2025-10-28 16:50:43,831 - INFO - Processing page 60/97
+2025-10-28 16:50:45,755 - INFO - Processing page 61/97
+2025-10-28 16:50:47,545 - INFO - Processing page 62/97
+2025-10-28 16:50:49,382 - INFO - Processing page 63/97
+2025-10-28 16:50:51,195 - INFO - Processing page 64/97
+2025-10-28 16:50:52,885 - INFO - Processing page 65/97
+2025-10-28 16:50:53,824 - INFO - Processing page 66/97
+2025-10-28 16:50:55,320 - INFO - Processing page 67/97
+2025-10-28 16:50:57,059 - INFO - Processing page 68/97
+2025-10-28 16:50:58,662 - INFO - Processing page 69/97
+2025-10-28 16:51:00,387 - INFO - Processing page 70/97
+2025-10-28 16:51:01,918 - INFO - Processing page 71/97
+2025-10-28 16:51:02,677 - INFO - Processing page 72/97
+2025-10-28 16:51:04,578 - INFO - Processing page 73/97
+2025-10-28 16:51:06,346 - INFO - Processing page 74/97
+2025-10-28 16:51:08,374 - INFO - Processing page 75/97
+2025-10-28 16:51:10,657 - INFO - Processing page 76/97
+2025-10-28 16:51:11,674 - INFO - Processing page 77/97
+2025-10-28 16:51:13,460 - INFO - Processing page 78/97
+2025-10-28 16:51:15,354 - INFO - Processing page 79/97
+2025-10-28 16:51:17,128 - INFO - Processing page 80/97
+2025-10-28 16:51:18,921 - INFO - Processing page 81/97
+2025-10-28 16:51:20,629 - INFO - Processing page 82/97
+2025-10-28 16:51:22,392 - INFO - Processing page 83/97
+2025-10-28 16:51:24,026 - INFO - Processing page 84/97
+2025-10-28 16:51:25,639 - INFO - Processing page 85/97
+2025-10-28 16:51:27,284 - INFO - Processing page 86/97
+2025-10-28 16:51:28,917 - INFO - Processing page 87/97
+2025-10-28 16:51:31,082 - INFO - Processing page 88/97
+2025-10-28 16:51:33,192 - INFO - Processing page 89/97
+2025-10-28 16:51:35,518 - INFO - Processing page 90/97
+2025-10-28 16:51:38,091 - INFO - Processing page 91/97
+2025-10-28 16:51:39,278 - INFO - Processing page 92/97
+2025-10-28 16:51:40,725 - INFO - Processing page 93/97
+2025-10-28 16:51:41,856 - INFO - Processing page 94/97
+2025-10-28 16:51:43,091 - INFO - Processing page 95/97
+2025-10-28 16:51:44,385 - INFO - Processing page 96/97
+2025-10-28 16:51:45,470 - INFO - Processing page 97/97
+2025-10-28 16:51:46,492 - INFO - Successfully processed and saved: ocr_data_output/NWAFOR JULIET IFEOMA ESUT-2014-155870.txt
+2025-10-28 16:51:46,997 - INFO - ✅ Success: data/ADULT AND CONTINUING EDUCATION/SANCTUS/23-11-2021 EXCEL DONE/NWAFOR JULIET IFEOMA ESUT-2014-155870.pdf
+2025-10-28 16:51:46,997 - INFO - 
+📊 PROCESSING SUMMARY:
+2025-10-28 16:51:47,000 - INFO - 📂 Total PDFs processed: 2
+2025-10-28 16:51:47,000 - INFO - ✅ Successful: 2
+2025-10-28 16:51:47,000 - INFO - ❌ Failed: 0
+2025-10-28 16:51:47,001 - INFO - 📁 Output folder: ocr_data_output
+2025-10-28 16:51:47,171 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 16:52:15,778 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
