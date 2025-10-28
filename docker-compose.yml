@@ -1,0 +1,24 @@
+services:
+  rag-app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - ./research_db:/app/research_db
+      - ./ocr_data_output:/app/ocr_data_output
+      - huggingface_cache:/app/.cache/huggingface
+      - sentence_transformers_cache:/app/.cache/sentence_transformers
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+
+volumes:
+  huggingface_cache:
+  sentence_transformers_cache:
