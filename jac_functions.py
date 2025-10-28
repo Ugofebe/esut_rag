@@ -9,7 +9,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 import os
 from langchain_community.document_loaders import TextLoader
 import torch
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 
 # from langchain_community.vectorstores import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
