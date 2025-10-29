@@ -26,7 +26,7 @@ OPENAI_API_KEY= os.getenv("OPENAI_API_KEY")
 # os.environ["OPENAI_API_KEY"] = openai_api_key
 
 # Initialize FastAPI
-app = FastAPI(title="RAG Jacmate API", version="1.0")
+app = FastAPI(title="RAG Chioma API", version="1.0")
 
 
 # llm_gpt = ChatOpenAI(model_name='gpt-4o-mini', temperature=0)
@@ -81,7 +81,8 @@ def ask_question(payload: QueryRequest):
         return {
             "question": payload.question,
             "answer": answer,
-            "sources": sources
+            "sources": sources[0]["title"],
+            "sources": sources #this can be removed it shows all the sources
         }
     except Exception as e:
         return {"error": str(e)}
@@ -101,6 +102,10 @@ def ask_question(payload: QueryRequest):
 @app.get("/")
 def home():
     return {"status": "ok", "message": "RAG API is running "}
+
+@app.get("/health")
+def health_check():
+    return {"status": "ok", "message": "ESUT RAG API is running "}
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))  # Render sets PORT env var
